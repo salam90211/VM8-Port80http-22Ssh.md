@@ -81,10 +81,17 @@ Appearance > Theme File Editor > comments.php
 
 ### 2. PHP PentestMonkey Reverse Shell einfügen
 
-IP und Port anpassen.
-
-### 3. Listener auf Kali starten
+MY_IP und Port anpassen.
+### type 
 ```bash
+rlwarp+nc
+```
+und code type 
+```bash
+pentestMonkey
+```
+### 3. Listener auf Kali starten
+c
 rlwrap -cAr nc -lvnp 5555
 ```
 
