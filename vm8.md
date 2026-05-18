@@ -129,6 +129,7 @@ Jetzt habe ich den Private Key.
 ### Datei erstellen
 ```bash
 nano key
+>ctr+o    >Enter      >ctr+x
 ```
 
 Den kompletten Private Key einfügen und speichern.
