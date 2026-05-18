@@ -153,19 +153,19 @@ Jetzt suche ich das Passwort von `alpha`.
 
 Ich habe in `Desktop`, `Documents` und `Downloads` gesucht.
 
-In `Documents` wurde `notes.txt` gefunden.
+In `Documents` wurde `notes.txt` gefunden. 
 
 Danach:
+
+```bash
+ cat notes.txt
+```
 
 ```bash
 sudo -l
 ```
 
 Passwort benutzt:
-
-```text
-pingo
-```
 
 Jetzt bin ich root.
 
