@@ -88,7 +88,7 @@ rlwarp+nc
 ```
 und code type 
 ```bash
-pentestMonkey
+PHP.pentestMonkey
 ```
 ### 3. Listener auf Kali starten
 c
